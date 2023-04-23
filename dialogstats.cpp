@@ -65,7 +65,7 @@ void dialogstats::MakeStat()
     ui->plot->xAxis->setLabelColor(Qt::black);
 
     // Axe des ordonnées
-    ui->plot->yAxis->setRange(0,20);
+    ui->plot->yAxis->setRange(0,21);
     ui->plot->yAxis->setPadding(5);
     ui->plot->yAxis->setLabel("PERIODE\n(semaines)");
     ui->plot->yAxis->setBasePen(QPen(Qt::black));
