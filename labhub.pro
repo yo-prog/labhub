@@ -22,6 +22,7 @@ SOURCES += \
     dialogstats.cpp \
     main.cpp \
     mainwindow.cpp \
+    menu.cpp \
     projet.cpp \
     qcustomplot.cpp \
     task.cpp \
@@ -33,6 +34,7 @@ HEADERS += \
     connection.h \
     dialogstats.h \
     mainwindow.h \
+    menu.h \
     projet.h \
     qcustomplot.h \
     task.h \
@@ -41,7 +43,8 @@ HEADERS += \
 FORMS += \
     ajoutertache.ui \
     dialogstats.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    menu.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

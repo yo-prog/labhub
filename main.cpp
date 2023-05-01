@@ -1,11 +1,11 @@
-#include "mainwindow.h"
+#include "menu.h"
 #include <QApplication>
 #include <QMessageBox>
 #include "connection.h"
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+    menu m;
     /*Connection c;
     bool test=c.createconnect();
     if(test)
@@ -21,6 +21,6 @@ int main(int argc, char *argv[])
                                 "Click Cancel to exit."), QMessageBox::Cancel);
 
 */
-    w.show();
+    m.show();
     return a.exec();
 }
